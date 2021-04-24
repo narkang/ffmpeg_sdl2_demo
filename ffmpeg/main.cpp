@@ -1,4 +1,5 @@
 #include <iostream>
+#include <SDL2/SDL.h>
 
 extern "C"{
     #include <libavformat/avformat.h>
@@ -14,6 +15,8 @@ using namespace std;
  * @return
  */
 int main1(int argc, char *argv[]){
+
+    SDL_Init();
 
     int version = avcodec_version();
     cout<<"version:"<<version<<endl;

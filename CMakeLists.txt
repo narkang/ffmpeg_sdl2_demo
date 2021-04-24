@@ -21,7 +21,8 @@ add_executable(SDL_Learn
 #
 #        ffmpeg/main.cpp
 #        ffmpeg/main2.cpp
-        ffmpeg/FFmpeg_video_decode.cpp
+#        ffmpeg/FFmpeg_video_decode.cpp
+        ffmpeg/ffplay.c
         )
 
 target_link_libraries(SDL_Learn
