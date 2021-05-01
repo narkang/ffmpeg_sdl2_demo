@@ -739,7 +739,7 @@ int demux_thread(void *arg) {
 
 int main(int argc, char *argv[]) {
 
-    char *file = "C:\\Users\\Admin\\CLionProjects\\SDL2\\oceans.mp4";
+    char *file = "D:\\myProject\\ffmpeg_sdl2_demo\\ffmpeg\\oceans.mp4";
 
     SDL_Event event;
 
